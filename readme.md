@@ -8,7 +8,7 @@ sudo apt install -y python3-venv
 Step 2 
 
 python3 -m venv venv
-source venv/bin/activate
+source venv/bin/activate  (ubuntu)
 
 ==================================
 Step 3 -- install reuirements.txt
