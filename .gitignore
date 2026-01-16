@@ -1,2 +1,24 @@
-/__pycache__
-/venv
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+# ===== Virtual Environment =====
+venv/
+.env
+.env.*
+
+# ===== Secrets =====
+_token.py
+
+# ===== Frontend =====
+node_modules/
+dist/
+frontend/node_modules/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
